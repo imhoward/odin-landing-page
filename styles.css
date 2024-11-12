@@ -8,8 +8,24 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-grow: 1;
+    justify-content: space-between;
+    padding-left: 125px;
+    padding-right: 100px;
+    align-items: center;
 }
 
 .logo {
     color: white;
+    font-size: 16px;
+}
+
+.header ul {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+}
+
+.header ul li {
+    padding-right: 25px;
 }
