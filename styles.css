@@ -111,3 +111,31 @@ body {
 }
 
 /*-------------------Begin Content3 Section-----------------------*/
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 105px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.quote h1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote h2 {
+    align-self: flex-end;
+    padding-right: 50px;
+}
+
+/*-------------------Begin Content4 Section-----------------------*/
