@@ -47,6 +47,8 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    width: 400px;
+    padding: 0;
 }
 
 .content1-left p {
@@ -60,7 +62,7 @@ body {
     color: #F9FAF8;
     padding: 6px 24px 6px 24px;
     font-weight: bold;
-    
+    font-family: Roboto;
 }
 
 .content1-right {
@@ -79,6 +81,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .images-box {
@@ -190,3 +193,10 @@ body {
 }
 
 /*-------------------Begin Footer Section-----------------------*/
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 25px;
+}
